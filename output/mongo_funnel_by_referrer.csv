@@ -1,0 +1,6 @@
+_id,sessions,viewed_product,reached_cart,reached_checkout,converted,conversion_rate
+direct,9984,9858,6803,4440,2088,0.2091
+search_engine,10107,9984,6934,4507,2101,0.2079
+social,10006,9871,6778,4409,2054,0.2053
+affiliate,9967,9837,6736,4357,2022,0.2029
+email,9936,9818,6774,4353,1999,0.2012

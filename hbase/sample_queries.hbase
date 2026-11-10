@@ -1,0 +1,35 @@
+# sample_queries.hbase - HBase shell equivalents of query_hbase.py
+#   hbase shell hbase/sample_queries.hbase
+# Row keys: user_sessions   = user_id|reverse_ts|session_id   (reverse_ts = 9999999999999 - epoch_ms)
+#           product_metrics = product_id|yyyymmdd
+
+# Q1 - the 5 most recent sessions of a user (newest first thanks to the reversed timestamp),
+#      reading only the small 'info' family
+scan 'user_sessions', {ROWPREFIXFILTER => 'user_000042|', COLUMNS => ['info'], LIMIT => 5}
+
+# Q2 - a user's sessions that started in September 2026.
+#      newer bound -> STARTROW, older bound -> STOPROW  (because the timestamp is reversed)
+#      reverse(2026-10-01T00:00:00Z - 1 ms) = 8209187200000 ; reverse(2026-09-01T00:00:00Z) = 8211779199999
+scan 'user_sessions', {STARTROW => 'user_000042|8209187200000', STOPROW => 'user_000042|8211779199999~',
+                       COLUMNS => ['info:start_time', 'info:conversion_status']}
+
+# Q3 - complete click-stream (page views + cart) of a single session (point get by full row key;
+#      take a key returned by Q1)
+get 'user_sessions', 'user_000042|8206766047273|sess_2817bd6893', {COLUMN => ['pv', 'cart']}
+
+# Q3b - only the converted sessions of a user (server-side filter on a column value)
+scan 'user_sessions', {ROWPREFIXFILTER => 'user_000042|',
+  FILTER => "SingleColumnValueFilter('info','conversion_status',=,'binary:converted',true,true)"}
+
+# Q4 - number of sessions of a user (counts rows under the prefix)
+count 'user_sessions', {ROWPREFIXFILTER => 'user_000042|', INTERVAL => 1000}
+
+# Q5 - a product's daily performance during September 2026 (contiguous range scan)
+scan 'product_metrics', {STARTROW => 'prod_00123|20260901', STOPROW => 'prod_00123|20261001'}
+
+# Q5b - one metric for one day
+get 'product_metrics', 'prod_00123|20260915', 'm:views'
+
+# Streaming-style update: atomic counter increments (what a real-time click consumer would do)
+incr 'product_metrics', 'prod_00123|20261101', 'm:views', 1
+get_counter 'product_metrics', 'prod_00123|20261101', 'm:views'

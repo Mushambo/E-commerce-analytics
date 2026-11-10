@@ -1,0 +1,4 @@
+device_type,sessions,cart_pct,checkout_pct,purchase_pct,revenue_per_session
+mobile,66960,65.31,29.19,12.62,97.5
+desktop,66481,65.0,29.04,12.61,96.03
+tablet,66559,64.88,29.09,12.57,97.88

@@ -1,0 +1,9 @@
+faker>=25
+numpy>=1.26
+pandas>=2.1
+ijson>=3.2
+pymongo>=4.6
+mongomock>=4.1        # optional: run the MongoDB pipelines without a server (--mock)
+happybase>=1.2        # HBase Thrift client
+pyspark==3.5.3        # needs Java 8/11/17 (Java 21 also worked in testing)
+matplotlib>=3.8

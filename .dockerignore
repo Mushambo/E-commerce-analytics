@@ -1,0 +1,7 @@
+data/
+output/
+.venv/
+__pycache__/
+*.zip
+report/*.docx
+report/*.pdf

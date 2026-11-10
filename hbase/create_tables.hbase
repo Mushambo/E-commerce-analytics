@@ -1,0 +1,48 @@
+# create_tables.hbase - HBase schema (run with:  hbase shell hbase/create_tables.hbase
+#                                     or docker exec -i hbase hbase shell < hbase/create_tables.hbase)
+#
+# ---------------------------------------------------------------------------
+# TABLE 1: user_sessions  - time-series browsing activity per user
+# ---------------------------------------------------------------------------
+# Row key  : <user_id>|<reverse_ts>|<session_id>
+#            reverse_ts = 9999999999999 - start_time_epoch_millis (13 digits, zero padded)
+#            -> all sessions of a user are contiguous (one prefix scan)
+#            -> newest session sorts FIRST (no client-side sort for "recent activity")
+#            -> session_id suffix keeps keys unique if two sessions start in the same ms
+#
+# Column families (kept few and small, each stored in its own HFiles):
+#   info : session header - one cell per attribute (start, end, duration, device, geo, referrer,
+#          conversion_status, n_pages ...). Read by "list sessions" queries -> smallest I/O.
+#   pv   : page views, one column per view: qualifier = 3-digit sequence ("000","001",...),
+#          value = "page_type|product_id|category_id|view_duration|timestamp".
+#          Sparse & variable width: a 3-page session stores 3 cells, a 15-page session 15.
+#   cart : one column per product in the cart: qualifier = product_id, value = "qty|unit_price".
+#          Most sessions have 0-2 cells here -> sparse storage costs nothing for empty cells.
+#
+# VERSIONS => 1  : events are immutable, no need for history
+# COMPRESSION    : SNAPPY (falls back to NONE if native libs are missing; change if needed)
+# BLOOMFILTER ROW: speeds up point gets of a single session row
+# TTL on pv      : 180 days of raw click-stream (older detail can be archived to HDFS/parquet)
+# SPLITS         : pre-split on user-id ranges so the bulk load is spread over regions
+create 'user_sessions',
+  {NAME => 'info', VERSIONS => 1, COMPRESSION => 'NONE', BLOOMFILTER => 'ROW'},
+  {NAME => 'pv',   VERSIONS => 1, COMPRESSION => 'NONE', TTL => 15552000},
+  {NAME => 'cart', VERSIONS => 1, COMPRESSION => 'NONE'},
+  SPLITS => ['user_002', 'user_004', 'user_006', 'user_008']
+
+# ---------------------------------------------------------------------------
+# TABLE 2: product_metrics - daily performance per product
+# ---------------------------------------------------------------------------
+# Row key  : <product_id>|<yyyymmdd>
+#            -> a product's whole history is one contiguous range;
+#               a date range is a bounded scan: STARTROW prod_x|20260901, STOPROW prod_x|20261001
+# Column family m (metrics): views, cart_adds, purchases, units_sold, revenue_cents
+#   Batch loads write pre-aggregated values; a streaming job would use atomic counters:
+#   incr 'product_metrics', 'prod_00123|20261015', 'm:views', 1
+create 'product_metrics',
+  {NAME => 'm', VERSIONS => 1, COMPRESSION => 'NONE', BLOOMFILTER => 'ROW'},
+  SPLITS => ['prod_01', 'prod_02', 'prod_03', 'prod_04']
+
+list
+describe 'user_sessions'
+describe 'product_metrics'

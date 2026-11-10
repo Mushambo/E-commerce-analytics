@@ -1,0 +1,53 @@
+
+=== 1. Top-selling products ===
+   {'product_name': 'Intuitive Uniform Implementation', 'category_id': 'cat_021', 'units_sold': 84, 'orders': 35, 'product_id': 'prod_03248', 'revenue': 31485.72, 'current_price': 374.83, 'current_stock': 816}
+   {'product_name': 'Focused Full-Range Artificial Intelligence', 'category_id': 'cat_024', 'units_sold': 84, 'orders': 36, 'product_id': 'prod_04028', 'revenue': 12798.24, 'current_price': 152.36, 'current_stock': 241}
+   {'product_name': 'Streamlined Scalable Ability', 'category_id': 'cat_018', 'units_sold': 82, 'orders': 35, 'product_id': 'prod_01324', 'revenue': 15967.04, 'current_price': 194.72, 'current_stock': 589}
+   {'product_name': 'Upgradable Dynamic Matrices', 'category_id': 'cat_010', 'units_sold': 81, 'orders': 36, 'product_id': 'prod_00810', 'revenue': 30923.37, 'current_price': 381.77, 'current_stock': 918}
+   {'product_name': 'Up-Sized Coherent Project', 'category_id': 'cat_018', 'units_sold': 81, 'orders': 38, 'product_id': 'prod_04620', 'revenue': 22634.64, 'current_price': 279.44, 'current_stock': 724}
+   {'product_name': 'Programmable 5Thgeneration Initiative', 'category_id': 'cat_001', 'units_sold': 81, 'orders': 37, 'product_id': 'prod_03004', 'revenue': 19151.64, 'current_price': 236.44, 'current_stock': 877}
+   {'product_name': 'Synergized Dynamic Alliance', 'category_id': 'cat_002', 'units_sold': 81, 'orders': 40, 'product_id': 'prod_00366', 'revenue': 12248.01, 'current_price': 151.21, 'current_stock': 659}
+   {'product_name': 'Customer-Focused Stable Array', 'category_id': 'cat_005', 'units_sold': 80, 'orders': 35, 'product_id': 'prod_04258', 'revenue': 516.0, 'current_price': 6.45, 'current_stock': 478}
+   {'product_name': 'Phased Maximized Artificial Intelligence', 'category_id': 'cat_023', 'units_sold': 79, 'orders': 37, 'product_id': 'prod_04961', 'revenue': 29087.8, 'current_price': 368.2, 'current_stock': 48}
+   {'product_name': 'Function-Based Optimal Capability', 'category_id': 'cat_022', 'units_sold': 79, 'orders': 37, 'product_id': 'prod_03342', 'revenue': 28309.65, 'current_price': 358.35, 'current_stock': 288}
+
+=== 2. Revenue by category & month (first rows) ===
+   {'units': 2218, 'category': 'Mitchell-Kim', 'month': '2026-08', 'revenue': 560716.93, 'est_profit': 126354.02}
+   {'units': 2146, 'category': 'Patterson, Smith and Jones', 'month': '2026-08', 'revenue': 551202.1, 'est_profit': 152705.52}
+   {'units': 2083, 'category': 'Moore, Becker and Carlson', 'month': '2026-08', 'revenue': 539114.37, 'est_profit': 148953.53}
+   {'units': 1851, 'category': 'James LLC', 'month': '2026-08', 'revenue': 518190.02, 'est_profit': 145549.18}
+   {'units': 2001, 'category': 'Rodriguez-Graham', 'month': '2026-08', 'revenue': 508226.66, 'est_profit': 183734.89}
+   {'units': 2024, 'category': 'Cameron-Parsons', 'month': '2026-08', 'revenue': 507956.75, 'est_profit': 142355.71}
+   {'units': 2048, 'category': 'Baldwin Ltd', 'month': '2026-08', 'revenue': 503903.11, 'est_profit': 106750.94}
+   {'units': 2046, 'category': 'Hancock Inc', 'month': '2026-08', 'revenue': 500622.0, 'est_profit': 139940.8}
+   {'units': 1967, 'category': 'Rodriguez, Figueroa and Sanchez', 'month': '2026-08', 'revenue': 500083.71, 'est_profit': 91193.45}
+   {'units': 1977, 'category': 'Owens-Daniel', 'month': '2026-08', 'revenue': 490449.25, 'est_profit': 127407.14}
+   {'units': 2039, 'category': 'Carney-Santos', 'month': '2026-08', 'revenue': 483943.64, 'est_profit': 124718.59}
+   {'units': 1895, 'category': 'Skinner-Romero', 'month': '2026-08', 'revenue': 481810.74, 'est_profit': 124117.82}
+
+=== 3a. Users by purchase frequency (bucket lower bound = orders) ===
+   {'orders_bucket': 1, 'users': 1179, 'avg_spent': 1833.38, 'total_revenue': 2161560.82}
+   {'orders_bucket': 3, 'users': 4907, 'avg_spent': 4353.7, 'total_revenue': 21363585.65}
+   {'orders_bucket': 6, 'users': 3550, 'avg_spent': 7351.23, 'total_revenue': 26096881.28}
+   {'orders_bucket': 10, 'users': 313, 'avg_spent': 11449.47, 'total_revenue': 3583682.6}
+
+=== 3b. Users by total spend (bucket lower bound = $) ===
+   {'spend_bucket': 0, 'users': 101, 'avg_orders': 1.25}
+   {'spend_bucket': 500, 'users': 499, 'avg_orders': 1.99}
+   {'spend_bucket': 1500, 'users': 1558, 'avg_orders': 2.95}
+   {'spend_bucket': 3000, 'users': 4112, 'avg_orders': 4.59}
+   {'spend_bucket': 6000, 'users': 3679, 'avg_orders': 6.91}
+
+=== 3c. Top customers ===
+   {'_id': 'user_001797', 'orders': 13, 'spent': 22742.16, 'last_order': datetime.datetime(2026, 11, 10, 6, 57, 6, 297000)}
+   {'_id': 'user_000347', 'orders': 14, 'spent': 20601.76, 'last_order': datetime.datetime(2026, 10, 27, 14, 14, 53, 370000)}
+   {'_id': 'user_006035', 'orders': 15, 'spent': 20080.4, 'last_order': datetime.datetime(2026, 11, 1, 11, 42, 14, 775000)}
+   {'_id': 'user_001241', 'orders': 11, 'spent': 18490.51, 'last_order': datetime.datetime(2026, 11, 7, 3, 8, 9, 627000)}
+   {'_id': 'user_008354', 'orders': 10, 'spent': 18308.51, 'last_order': datetime.datetime(2026, 11, 9, 21, 22, 40, 306000)}
+
+=== 4. Session funnel by referrer ===
+   {'_id': 'direct', 'sessions': 9984, 'viewed_product': 9858, 'reached_cart': 6803, 'reached_checkout': 4440, 'converted': 2088, 'conversion_rate': 0.21}
+   {'_id': 'search_engine', 'sessions': 10107, 'viewed_product': 9984, 'reached_cart': 6934, 'reached_checkout': 4507, 'converted': 2101, 'conversion_rate': 0.21}
+   {'_id': 'social', 'sessions': 10006, 'viewed_product': 9871, 'reached_cart': 6778, 'reached_checkout': 4409, 'converted': 2054, 'conversion_rate': 0.21}
+   {'_id': 'affiliate', 'sessions': 9967, 'viewed_product': 9837, 'reached_cart': 6736, 'reached_checkout': 4357, 'converted': 2022, 'conversion_rate': 0.2}
+   {'_id': 'email', 'sessions': 9936, 'viewed_product': 9818, 'reached_cart': 6774, 'reached_checkout': 4353, 'converted': 1999, 'conversion_rate': 0.2}

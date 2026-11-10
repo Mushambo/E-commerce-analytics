@@ -1,0 +1,8 @@
+segment,users,avg_clv,total_clv,avg_revenue_90d,avg_orders,avg_recency_days,avg_sessions,avg_session_purchase_rate,share_of_clv_pct
+Champions,1729,4328.77,7484438.0,8586.25,7.56,3.9,21.1,0.171,27.9
+At risk - high value,1084,3910.18,4238639.0,7776.39,6.23,26.7,20.2,0.143,15.8
+Loyal,1260,3394.85,4277508.0,6723.56,6.93,9.4,21.1,0.179,16.0
+Needs attention,1939,2281.56,4423935.0,4531.25,4.24,8.9,19.6,0.109,16.5
+New / promising,1041,1662.93,1731107.0,3300.24,3.25,4.3,19.1,0.091,6.5
+Hibernating,2896,1607.66,4655778.0,3189.62,3.39,35.0,19.4,0.095,17.4
+No purchase,51,0.0,0.0,0.0,0.0,90.0,17.5,0.0,0.0

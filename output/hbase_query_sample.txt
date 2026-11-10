@@ -1,0 +1,64 @@
+
+Q1  latest 5 sessions of user_000042  (scan row_prefix='user_000042|', columns=info)
+   user_000042|8205862881999|sess_06fa138424     2026-11-08T11:25:18   3054s  desktop social        browsed
+   user_000042|8206529838999|sess_80fb49ccc2     2026-10-31T18:09:21    250s  mobile  email         abandoned
+   user_000042|8206613416999|sess_e5d8e31d3d     2026-10-30T18:56:23   2178s  desktop search_engine abandoned
+   user_000042|8206806260999|sess_ced0414dab     2026-10-28T13:22:19    780s  mobile  affiliate     browsed
+   user_000042|8207167002999|sess_dc2c382f00     2026-10-24T09:09:57   1207s  desktop email         abandoned
+
+Q2  user_000042 sessions in [2026-09-01, 2026-10-01)
+    STARTROW=user_000042|8209187200000  STOPROW=user_000042|8211779199999~
+   2026-09-17T02:12:37  abandoned
+   2026-09-14T10:01:11  abandoned
+   2026-09-12T18:45:07  abandoned
+   2026-09-05T19:40:05  abandoned
+    -> 4 sessions
+
+Q3  click-stream of user_000042|8205862881999|sess_06fa138424  (get row, families pv + cart)
+   pv:000  11:25:18  search            -           -          940s
+   pv:001  11:40:58  product_detail    prod_01474  cat_014    109s
+   pv:002  11:42:47  home              -           -           30s
+   pv:003  11:43:17  category_listing  -           cat_000      4s
+   pv:004  11:43:21  product_detail    prod_04501  cat_013     14s
+   pv:005  11:43:35  home              -           -           14s
+   pv:006  11:43:49  category_listing  -           cat_006    193s
+   pv:007  11:47:02  product_detail    prod_03869  cat_019    163s
+   pv:008  11:49:45  cart              -           -           28s
+   pv:009  11:50:13  checkout          -           -          426s
+   pv:010  11:57:19  home              -           -          466s
+   pv:011  12:05:05  category_listing  -           cat_014     57s
+   pv:012  12:06:02  search            -           -          225s
+   pv:013  12:09:47  home              -           -          370s
+   pv:014  12:15:57  category_listing  -           cat_010     15s
+
+Q4  engagement of user_000042: sessions=18 converted=1 (6%) avg_duration=2112s avg_pages=12.2
+
+Q5  prod_00123 daily metrics 2026-09-01..2026-10-01  (scan prod_00123|20260901 -> prod_00123|20261001)
+   prod_00123|20260901  views=  2 cart_adds= 2 purchases= 1 revenue=$731.54
+   prod_00123|20260902  views=  1 cart_adds= 0 purchases= 1 revenue=$365.77
+   prod_00123|20260903  views=  1 cart_adds= 0 purchases= 0 revenue=$0.00
+   prod_00123|20260904  views=  3 cart_adds= 1 purchases= 2 revenue=$1,097.31
+   prod_00123|20260905  views=  1 cart_adds= 0 purchases= 0 revenue=$0.00
+   prod_00123|20260906  views=  1 cart_adds= 1 purchases= 0 revenue=$0.00
+   prod_00123|20260907  views=  2 cart_adds= 0 purchases= 1 revenue=$731.54
+   prod_00123|20260908  views=  7 cart_adds= 2 purchases= 1 revenue=$1,097.31
+   prod_00123|20260909  views=  1 cart_adds= 1 purchases= 1 revenue=$731.54
+   prod_00123|20260910  views=  2 cart_adds= 0 purchases= 0 revenue=$0.00
+   prod_00123|20260911  views=  1 cart_adds= 1 purchases= 0 revenue=$0.00
+   prod_00123|20260912  views=  2 cart_adds= 0 purchases= 0 revenue=$0.00
+   prod_00123|20260913  views=  5 cart_adds= 2 purchases= 0 revenue=$0.00
+   prod_00123|20260914  views=  1 cart_adds= 0 purchases= 0 revenue=$0.00
+   prod_00123|20260915  views=  3 cart_adds= 0 purchases= 0 revenue=$0.00
+   prod_00123|20260916  views=  3 cart_adds= 2 purchases= 0 revenue=$0.00
+   prod_00123|20260917  views=  0 cart_adds= 1 purchases= 0 revenue=$0.00
+   prod_00123|20260918  views=  5 cart_adds= 2 purchases= 0 revenue=$0.00
+   prod_00123|20260919  views=  1 cart_adds= 0 purchases= 1 revenue=$365.77
+   prod_00123|20260920  views=  2 cart_adds= 1 purchases= 0 revenue=$0.00
+   prod_00123|20260921  views=  1 cart_adds= 1 purchases= 0 revenue=$0.00
+   prod_00123|20260923  views=  2 cart_adds= 0 purchases= 1 revenue=$365.77
+   prod_00123|20260924  views=  2 cart_adds= 1 purchases= 0 revenue=$0.00
+   prod_00123|20260925  views=  2 cart_adds= 2 purchases= 0 revenue=$0.00
+   prod_00123|20260926  views=  3 cart_adds= 1 purchases= 0 revenue=$0.00
+   prod_00123|20260927  views=  4 cart_adds= 1 purchases= 0 revenue=$0.00
+   prod_00123|20260928  views=  1 cart_adds= 0 purchases= 2 revenue=$1,463.08
+    TOTAL views=59 purchases=11 view->purchase=18.6% revenue=$6,949.63

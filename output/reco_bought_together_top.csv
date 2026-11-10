@@ -1,0 +1,201 @@
+y,x,pair_count,x_count,y_count,support,confidence,lift,rank,x_name,y_name
+prod_00256,prod_00377,2,10,23,4e-05,0.2,434.7826086956522,1,Reactive Clear-Thinking Pricing Structure,Monitored Intermediate Budgetary Management
+prod_00377,prod_00256,2,23,10,4e-05,0.08695652173913043,434.78260869565213,1,Monitored Intermediate Budgetary Management,Reactive Clear-Thinking Pricing Structure
+prod_03078,prod_01514,2,11,23,4e-05,0.18181818181818182,395.25691699604744,1,Function-Based 24/7 Support,Horizontal Exuding Algorithm
+prod_01514,prod_03078,2,23,11,4e-05,0.08695652173913043,395.2569169960474,1,Horizontal Exuding Algorithm,Function-Based 24/7 Support
+prod_03071,prod_04513,2,20,15,4e-05,0.1,333.33333333333337,1,Optional Uniform Policy,Visionary Zero Administration Neural-Net
+prod_04513,prod_03071,2,15,20,4e-05,0.13333333333333333,333.3333333333333,1,Visionary Zero Administration Neural-Net,Optional Uniform Policy
+prod_04016,prod_03720,2,21,15,4e-05,0.09523809523809523,317.46031746031747,1,Function-Based Content-Based Migration,Multi-Lateral Homogeneous Adapter
+prod_03720,prod_04016,2,15,21,4e-05,0.13333333333333333,317.46031746031747,1,Multi-Lateral Homogeneous Adapter,Function-Based Content-Based Migration
+prod_04871,prod_04232,2,32,10,4e-05,0.0625,312.5,1,Function-Based 24Hour Internet Solution,Vision-Oriented Hybrid Task-Force
+prod_04232,prod_04871,2,10,32,4e-05,0.2,312.5,1,Vision-Oriented Hybrid Task-Force,Function-Based 24Hour Internet Solution
+prod_03535,prod_01419,2,17,19,4e-05,0.11764705882352941,309.5975232198142,1,User-Friendly Analyzing Model,Multi-Channeled Systemic Hardware
+prod_04309,prod_03113,2,19,17,4e-05,0.10526315789473684,309.5975232198142,1,Up-Sized Systematic Flexibility,Down-Sized Systemic Focus Group
+prod_01419,prod_03535,2,19,17,4e-05,0.10526315789473684,309.5975232198142,1,Multi-Channeled Systemic Hardware,User-Friendly Analyzing Model
+prod_03113,prod_04309,2,17,19,4e-05,0.11764705882352941,309.5975232198142,1,Down-Sized Systemic Focus Group,Up-Sized Systematic Flexibility
+prod_00866,prod_03588,2,22,15,4e-05,0.09090909090909091,303.03030303030306,1,Upgradable Bottom-Line Groupware,Extended Directional Project
+prod_03588,prod_00866,2,15,22,4e-05,0.13333333333333333,303.030303030303,1,Extended Directional Project,Upgradable Bottom-Line Groupware
+prod_01555,prod_00066,2,17,20,4e-05,0.11764705882352941,294.11764705882354,1,Re-Contextualized Didactic Local Area Network,Synchronized Human-Resource Flexibility
+prod_00066,prod_01555,2,20,17,4e-05,0.1,294.11764705882354,1,Synchronized Human-Resource Flexibility,Re-Contextualized Didactic Local Area Network
+prod_03762,prod_00895,2,19,18,4e-05,0.10526315789473684,292.3976608187134,1,Compatible Methodical Core,Intuitive Optimizing Throughput
+prod_00895,prod_03762,2,18,19,4e-05,0.1111111111111111,292.3976608187134,1,Intuitive Optimizing Throughput,Compatible Methodical Core
+prod_04979,prod_01060,2,16,23,4e-05,0.125,271.7391304347826,1,Multi-Lateral Client-Driven Service-Desk,Focused Leadingedge Application
+prod_01060,prod_04979,2,23,16,4e-05,0.08695652173913043,271.73913043478257,1,Focused Leadingedge Application,Multi-Lateral Client-Driven Service-Desk
+prod_02345,prod_00050,2,31,12,4e-05,0.06451612903225806,268.81720430107526,1,Virtual Object-Oriented Implementation,Proactive Background Framework
+prod_00050,prod_02345,2,12,31,4e-05,0.16666666666666666,268.81720430107526,1,Proactive Background Framework,Virtual Object-Oriented Implementation
+prod_01017,prod_00080,2,19,20,4e-05,0.10526315789473684,263.1578947368421,1,Reverse-Engineered Encompassing Graphic Interface,Cross-Group Grid-Enabled Definition
+prod_00080,prod_01017,2,20,19,4e-05,0.1,263.1578947368421,1,Cross-Group Grid-Enabled Definition,Reverse-Engineered Encompassing Graphic Interface
+prod_02299,prod_00076,2,26,15,4e-05,0.07692307692307693,256.41025641025647,1,Operative Mobile Benchmark,Virtual Intermediate Extranet
+prod_00076,prod_02299,2,15,26,4e-05,0.13333333333333333,256.4102564102564,1,Virtual Intermediate Extranet,Operative Mobile Benchmark
+prod_04334,prod_04610,2,17,23,4e-05,0.11764705882352941,255.7544757033248,1,Vision-Oriented Static Support,Expanded Disintermediate Installation
+prod_04610,prod_04334,2,23,17,4e-05,0.08695652173913043,255.75447570332477,1,Expanded Disintermediate Installation,Vision-Oriented Static Support
+prod_03017,prod_00826,2,22,18,4e-05,0.09090909090909091,252.5252525252525,1,Configurable Static Hardware,Organic Context-Sensitive Migration
+prod_00826,prod_03017,2,18,22,4e-05,0.1111111111111111,252.5252525252525,1,Organic Context-Sensitive Migration,Configurable Static Hardware
+prod_04517,prod_01525,2,19,21,4e-05,0.10526315789473684,250.62656641604008,1,Phased Value-Added System Engine,Horizontal Grid-Enabled Knowledge User
+prod_03297,prod_00514,2,21,19,4e-05,0.09523809523809523,250.62656641604008,1,Phased Disintermediate Definition,Inverse Reciprocal Encryption
+prod_04590,prod_02042,2,21,19,4e-05,0.09523809523809523,250.62656641604008,1,Realigned Secondary Capability,Secured Transitional Matrix
+prod_00514,prod_03297,2,19,21,4e-05,0.10526315789473684,250.62656641604008,1,Inverse Reciprocal Encryption,Phased Disintermediate Definition
+prod_01525,prod_04517,2,21,19,4e-05,0.09523809523809523,250.62656641604008,1,Horizontal Grid-Enabled Knowledge User,Phased Value-Added System Engine
+prod_02042,prod_04590,2,19,21,4e-05,0.10526315789473684,250.62656641604008,1,Secured Transitional Matrix,Realigned Secondary Capability
+prod_04905,prod_01991,2,20,20,4e-05,0.1,250.0,1,Switchable Secondary Collaboration,Programmable Multimedia Application
+prod_01470,prod_02177,2,16,25,4e-05,0.125,250.0,1,Multi-Layered Modular Functionalities,Customizable Optimizing Policy
+prod_01991,prod_04905,2,20,20,4e-05,0.1,250.0,1,Programmable Multimedia Application,Switchable Secondary Collaboration
+prod_02177,prod_01470,2,25,16,4e-05,0.08,249.99999999999997,1,Customizable Optimizing Policy,Multi-Layered Modular Functionalities
+prod_00112,prod_02457,2,29,14,4e-05,0.06896551724137931,246.30541871921184,1,User-Centric Responsive Open System,Enhanced Neutral Archive
+prod_02457,prod_00112,2,14,29,4e-05,0.14285714285714285,246.30541871921181,1,Enhanced Neutral Archive,User-Centric Responsive Open System
+prod_01634,prod_02679,2,22,19,4e-05,0.09090909090909091,239.23444976076556,1,Customizable Dedicated Leverage,Persistent Tertiary Productivity
+prod_02679,prod_01634,2,19,22,4e-05,0.10526315789473684,239.23444976076553,1,Persistent Tertiary Productivity,Customizable Dedicated Leverage
+prod_03080,prod_00484,2,30,14,4e-05,0.06666666666666667,238.0952380952381,1,Reduced Mobile Array,Future-Proofed Value-Added Capability
+prod_04819,prod_02002,2,20,21,4e-05,0.1,238.0952380952381,1,Profound Neutral Function,Configurable Interactive Software
+prod_02639,prod_02420,2,20,21,4e-05,0.1,238.0952380952381,1,Switchable Secondary Migration,Upgradable Bi-Directional Infrastructure
+prod_00484,prod_03080,2,14,30,4e-05,0.14285714285714285,238.0952380952381,1,Future-Proofed Value-Added Capability,Reduced Mobile Array
+prod_02420,prod_02639,2,21,20,4e-05,0.09523809523809523,238.09523809523807,1,Upgradable Bi-Directional Infrastructure,Switchable Secondary Migration
+prod_02002,prod_04819,2,21,20,4e-05,0.09523809523809523,238.09523809523807,1,Configurable Interactive Software,Profound Neutral Function
+prod_02980,prod_00331,2,25,17,4e-05,0.08,235.2941176470588,1,Implemented Interactive Ability,Managed Incremental Projection
+prod_00331,prod_02980,2,17,25,4e-05,0.11764705882352941,235.2941176470588,1,Managed Incremental Projection,Implemented Interactive Ability
+prod_02908,prod_02617,2,18,24,4e-05,0.1111111111111111,231.48148148148147,1,Visionary Global Knowledge User,Programmable Reciprocal Middleware
+prod_02617,prod_02908,2,24,18,4e-05,0.08333333333333333,231.48148148148147,1,Programmable Reciprocal Middleware,Visionary Global Knowledge User
+prod_02773,prod_03668,2,16,27,4e-05,0.125,231.48148148148147,1,Synergized Discrete Ability,Optimized Composite Software
+prod_03668,prod_02773,2,27,16,4e-05,0.07407407407407407,231.48148148148144,1,Optimized Composite Software,Synergized Discrete Ability
+prod_01023,prod_03438,2,29,15,4e-05,0.06896551724137931,229.8850574712644,1,Multi-Lateral Mission-Critical Extranet,Synergized Fresh-Thinking Implementation
+prod_03438,prod_01023,2,15,29,4e-05,0.13333333333333333,229.88505747126436,1,Synergized Fresh-Thinking Implementation,Multi-Lateral Mission-Critical Extranet
+prod_04375,prod_00479,2,23,19,4e-05,0.08695652173913043,228.83295194508008,1,Virtual Dynamic Software,Enterprise-Wide Demand-Driven Algorithm
+prod_00479,prod_04375,2,19,23,4e-05,0.10526315789473684,228.83295194508008,1,Enterprise-Wide Demand-Driven Algorithm,Virtual Dynamic Software
+prod_02686,prod_00160,2,20,22,4e-05,0.1,227.27272727272728,1,Streamlined Attitude-Oriented Groupware,Down-Sized Object-Oriented Internet Solution
+prod_01076,prod_00913,2,22,20,4e-05,0.09090909090909091,227.27272727272728,1,Versatile Content-Based Concept,Balanced Directional Task-Force
+prod_00913,prod_01076,2,20,22,4e-05,0.1,227.27272727272728,1,Balanced Directional Task-Force,Versatile Content-Based Concept
+prod_00160,prod_02686,2,22,20,4e-05,0.09090909090909091,227.27272727272728,1,Down-Sized Object-Oriented Internet Solution,Streamlined Attitude-Oriented Groupware
+prod_01851,prod_00774,2,21,21,4e-05,0.09523809523809523,226.75736961451244,1,Centralized Methodical Moderator,Stand-Alone Secondary Contingency
+prod_00774,prod_01851,2,21,21,4e-05,0.09523809523809523,226.75736961451244,1,Stand-Alone Secondary Contingency,Centralized Methodical Moderator
+prod_03942,prod_00035,2,24,19,4e-05,0.08333333333333333,219.29824561403507,1,Total Multi-State Local Area Network,Progressive Static Flexibility
+prod_00035,prod_03942,2,19,24,4e-05,0.10526315789473684,219.29824561403507,1,Progressive Static Flexibility,Total Multi-State Local Area Network
+prod_02582,prod_00883,2,17,27,4e-05,0.11764705882352941,217.8649237472767,1,Proactive Explicit Firmware,Multi-Layered Actuating Standardization
+prod_01610,prod_01254,2,17,27,4e-05,0.11764705882352941,217.8649237472767,1,Sharable Motivating Implementation,Compatible Methodical Paradigm
+prod_02193,prod_01723,2,17,27,4e-05,0.11764705882352941,217.8649237472767,1,Persevering Asynchronous Budgetary Management,Organized Next Generation Algorithm
+prod_01254,prod_01610,2,27,17,4e-05,0.07407407407407407,217.86492374727666,1,Compatible Methodical Paradigm,Sharable Motivating Implementation
+prod_01723,prod_02193,2,27,17,4e-05,0.07407407407407407,217.86492374727666,1,Organized Next Generation Algorithm,Persevering Asynchronous Budgetary Management
+prod_00883,prod_02582,2,27,17,4e-05,0.07407407407407407,217.86492374727666,1,Multi-Layered Actuating Standardization,Proactive Explicit Firmware
+prod_01091,prod_00060,2,20,23,4e-05,0.1,217.3913043478261,1,Grass-Roots Web-Enabled Instruction Set,Diverse Secondary Installation
+prod_01808,prod_00989,2,20,23,4e-05,0.1,217.3913043478261,1,Horizontal Interactive Workforce,Synchronized Well-Modulated Neural-Net
+prod_04776,prod_02057,2,20,23,4e-05,0.1,217.3913043478261,1,Inverse Empowering Implementation,Fully-Configurable Uniform Firmware
+prod_00116,prod_04348,2,20,23,4e-05,0.1,217.3913043478261,1,Up-Sized Uniform Moderator,Focused Empowering Toolset
+prod_00989,prod_01808,2,23,20,4e-05,0.08695652173913043,217.39130434782606,1,Synchronized Well-Modulated Neural-Net,Horizontal Interactive Workforce
+prod_00060,prod_01091,2,23,20,4e-05,0.08695652173913043,217.39130434782606,1,Diverse Secondary Installation,Grass-Roots Web-Enabled Instruction Set
+prod_04348,prod_00116,2,23,20,4e-05,0.08695652173913043,217.39130434782606,1,Focused Empowering Toolset,Up-Sized Uniform Moderator
+prod_02057,prod_04776,2,23,20,4e-05,0.08695652173913043,217.39130434782606,1,Fully-Configurable Uniform Firmware,Inverse Empowering Implementation
+prod_00182,prod_00706,2,22,21,4e-05,0.09090909090909091,216.45021645021646,1,Upgradable Disintermediate Approach,Face-To-Face Scalable Core
+prod_02454,prod_01152,2,22,21,4e-05,0.09090909090909091,216.45021645021646,1,Public-Key 24/7 Standardization,Down-Sized Holistic Budgetary Management
+prod_04692,prod_01483,2,22,21,4e-05,0.09090909090909091,216.45021645021646,1,Customizable Executive Algorithm,Open-Architected Modular Open System
+prod_00706,prod_00182,2,21,22,4e-05,0.09523809523809523,216.45021645021643,1,Face-To-Face Scalable Core,Upgradable Disintermediate Approach
+prod_01152,prod_02454,2,21,22,4e-05,0.09523809523809523,216.45021645021643,1,Down-Sized Holistic Budgetary Management,Public-Key 24/7 Standardization
+prod_01483,prod_04692,2,21,22,4e-05,0.09523809523809523,216.45021645021643,1,Open-Architected Modular Open System,Customizable Executive Algorithm
+prod_01913,prod_01196,2,13,36,4e-05,0.15384615384615385,213.67521367521368,1,Down-Sized Hybrid Benchmark,Synergized Real-Time Capacity
+prod_01196,prod_01913,2,36,13,4e-05,0.05555555555555555,213.67521367521368,1,Synergized Real-Time Capacity,Down-Sized Hybrid Benchmark
+prod_00111,prod_00275,2,25,19,4e-05,0.08,210.52631578947367,1,Virtual Well-Modulated Projection,Self-Enabling Didactic Firmware
+prod_04808,prod_00756,2,19,25,4e-05,0.10526315789473684,210.52631578947367,1,De-Engineered Dedicated Initiative,Inverse Regional Contingency
+prod_00353,prod_02182,2,25,19,4e-05,0.08,210.52631578947367,1,Automated Needs-Based Customer Loyalty,Inverse Stable Frame
+prod_00275,prod_00111,2,19,25,4e-05,0.10526315789473684,210.52631578947367,1,Self-Enabling Didactic Firmware,Virtual Well-Modulated Projection
+prod_02182,prod_00353,2,19,25,4e-05,0.10526315789473684,210.52631578947367,1,Inverse Stable Frame,Automated Needs-Based Customer Loyalty
+prod_00756,prod_04808,2,25,19,4e-05,0.08,210.52631578947367,1,Inverse Regional Contingency,De-Engineered Dedicated Initiative
+prod_04236,prod_00443,2,17,28,4e-05,0.11764705882352941,210.0840336134454,1,Multi-Tiered Hybrid Hardware,Visionary 24/7 Leverage
+prod_00443,prod_04236,2,28,17,4e-05,0.07142857142857142,210.08403361344534,1,Visionary 24/7 Leverage,Multi-Tiered Hybrid Hardware
+prod_03103,prod_00626,2,32,15,4e-05,0.0625,208.33333333333334,1,Right-Sized Human-Resource Pricing Structure,Realigned Mobile Moratorium
+prod_00802,prod_02727,2,20,24,4e-05,0.1,208.33333333333334,1,Organized Composite Alliance,Function-Based Zero Tolerance Benchmark
+prod_01817,prod_03933,2,20,24,4e-05,0.1,208.33333333333334,1,Total Interactive Architecture,Function-Based Systemic Policy
+prod_03362,prod_04851,2,16,30,4e-05,0.125,208.33333333333334,1,Reverse-Engineered Multi-State Infrastructure,Right-Sized Encompassing Methodology
+prod_02727,prod_00802,2,24,20,4e-05,0.08333333333333333,208.33333333333331,1,Function-Based Zero Tolerance Benchmark,Organized Composite Alliance
+prod_03933,prod_01817,2,24,20,4e-05,0.08333333333333333,208.33333333333331,1,Function-Based Systemic Policy,Total Interactive Architecture
+prod_00626,prod_03103,2,15,32,4e-05,0.13333333333333333,208.33333333333331,1,Realigned Mobile Moratorium,Right-Sized Human-Resource Pricing Structure
+prod_04851,prod_03362,2,30,16,4e-05,0.06666666666666667,208.33333333333331,1,Right-Sized Encompassing Methodology,Reverse-Engineered Multi-State Infrastructure
+prod_03328,prod_00611,2,21,23,4e-05,0.09523809523809523,207.03933747412006,1,Implemented Intangible Artificial Intelligence,Integrated Methodical Structure
+prod_04810,prod_00287,2,23,21,4e-05,0.08695652173913043,207.03933747412006,1,Mandatory Transitional Artificial Intelligence,Secured Dynamic Standardization
+prod_00611,prod_03328,2,23,21,4e-05,0.08695652173913043,207.03933747412006,1,Integrated Methodical Structure,Implemented Intangible Artificial Intelligence
+prod_00287,prod_04810,2,21,23,4e-05,0.09523809523809523,207.03933747412006,1,Secured Dynamic Standardization,Mandatory Transitional Artificial Intelligence
+prod_02766,prod_00806,2,22,22,4e-05,0.09090909090909091,206.61157024793388,1,Diverse Local Archive,Synchronized Didactic Local Area Network
+prod_02978,prod_02613,2,22,22,4e-05,0.09090909090909091,206.61157024793388,1,Persistent Attitude-Oriented Product,Compatible Secondary Interface
+prod_00806,prod_02766,2,22,22,4e-05,0.09090909090909091,206.61157024793388,1,Synchronized Didactic Local Area Network,Diverse Local Archive
+prod_02613,prod_02978,2,22,22,4e-05,0.09090909090909091,206.61157024793388,1,Compatible Secondary Interface,Persistent Attitude-Oriented Product
+prod_03799,prod_00634,2,17,29,4e-05,0.11764705882352941,202.83975659229208,1,Realigned Composite Matrix,Inverse Heuristic Process Improvement
+prod_00634,prod_03799,2,29,17,4e-05,0.06896551724137931,202.83975659229208,1,Inverse Heuristic Process Improvement,Realigned Composite Matrix
+prod_02230,prod_00791,2,26,19,4e-05,0.07692307692307693,202.42914979757086,1,Sharable Mobile Projection,Expanded Motivating Analyzer
+prod_04574,prod_00019,2,19,26,4e-05,0.10526315789473684,202.42914979757086,1,Profit-Focused Fault-Tolerant Secured Line,Visionary Optimal Middleware
+prod_00791,prod_02230,2,19,26,4e-05,0.10526315789473684,202.42914979757086,1,Expanded Motivating Analyzer,Sharable Mobile Projection
+prod_00019,prod_04574,2,26,19,4e-05,0.07692307692307693,202.42914979757086,1,Visionary Optimal Middleware,Profit-Focused Fault-Tolerant Secured Line
+prod_02984,prod_00600,2,25,20,4e-05,0.08,200.0,1,Reduced Impactful Monitoring,Profound Transitional Time-Frame
+prod_00600,prod_02984,2,20,25,4e-05,0.1,200.0,1,Profound Transitional Time-Frame,Reduced Impactful Monitoring
+prod_04287,prod_00456,2,21,24,4e-05,0.09523809523809523,198.4126984126984,1,Operative Context-Sensitive Alliance,Virtual Cohesive Data-Warehouse
+prod_00456,prod_04287,2,24,21,4e-05,0.08333333333333333,198.4126984126984,1,Virtual Cohesive Data-Warehouse,Operative Context-Sensitive Alliance
+prod_01670,prod_02027,2,22,23,4e-05,0.09090909090909091,197.62845849802372,1,Distributed Bottom-Line Hub,Enterprise-Wide Demand-Driven Open Architecture
+prod_02027,prod_01670,2,23,22,4e-05,0.08695652173913043,197.6284584980237,1,Enterprise-Wide Demand-Driven Open Architecture,Distributed Bottom-Line Hub
+prod_03455,prod_03266,2,34,15,4e-05,0.058823529411764705,196.07843137254903,1,Ameliorated Zero Tolerance Instruction Set,Up-Sized Multi-Tasking Concept
+prod_03266,prod_03455,2,15,34,4e-05,0.13333333333333333,196.078431372549,1,Up-Sized Multi-Tasking Concept,Ameliorated Zero Tolerance Instruction Set
+prod_04812,prod_00133,2,19,27,4e-05,0.10526315789473684,194.9317738791423,1,Profound 24Hour Protocol,Integrated Motivating Implementation
+prod_03091,prod_02236,2,19,27,4e-05,0.10526315789473684,194.9317738791423,1,Switchable Dynamic Structure,Multi-Tiered 3Rdgeneration Methodology
+prod_02415,prod_04741,2,19,27,4e-05,0.10526315789473684,194.9317738791423,1,Synchronized Optimizing Policy,Compatible Neutral Extranet
+prod_04741,prod_02415,2,27,19,4e-05,0.07407407407407407,194.93177387914227,1,Compatible Neutral Extranet,Synchronized Optimizing Policy
+prod_02236,prod_03091,2,27,19,4e-05,0.07407407407407407,194.93177387914227,1,Multi-Tiered 3Rdgeneration Methodology,Switchable Dynamic Structure
+prod_00133,prod_04812,2,27,19,4e-05,0.07407407407407407,194.93177387914227,1,Integrated Motivating Implementation,Profound 24Hour Protocol
+prod_03046,prod_00061,2,20,26,4e-05,0.1,192.30769230769235,1,Phased 3Rdgeneration Synergy,Phased Coherent Matrix
+prod_00450,prod_01238,2,20,26,4e-05,0.1,192.30769230769235,1,Business-Focused Static Data-Warehouse,Managed Transitional Leverage
+prod_01238,prod_00450,2,26,20,4e-05,0.07692307692307693,192.30769230769232,1,Managed Transitional Leverage,Business-Focused Static Data-Warehouse
+prod_00061,prod_03046,2,26,20,4e-05,0.07692307692307693,192.30769230769232,1,Phased Coherent Matrix,Phased 3Rdgeneration Synergy
+prod_02709,prod_01551,2,29,18,4e-05,0.06896551724137931,191.57088122605361,1,Organic Transitional Firmware,Enhanced Stable Open System
+prod_03000,prod_02457,2,29,18,4e-05,0.06896551724137931,191.57088122605361,2,User-Centric Responsive Open System,Horizontal Global Functionalities
+prod_01551,prod_02709,2,18,29,4e-05,0.1111111111111111,191.57088122605361,1,Enhanced Stable Open System,Organic Transitional Firmware
+prod_02457,prod_03000,2,18,29,4e-05,0.1111111111111111,191.57088122605361,1,Horizontal Global Functionalities,User-Centric Responsive Open System
+prod_01044,prod_01255,2,25,21,4e-05,0.08,190.47619047619048,1,Multi-Lateral Zero-Defect Process Improvement,Balanced 24Hour Orchestration
+prod_01255,prod_01044,2,21,25,4e-05,0.09523809523809523,190.47619047619045,1,Balanced 24Hour Orchestration,Multi-Lateral Zero-Defect Process Improvement
+prod_01444,prod_00095,2,22,24,4e-05,0.09090909090909091,189.3939393939394,1,User-Centric Mission-Critical Focus Group,Intuitive Encompassing Circuit
+prod_03389,prod_00436,2,22,24,4e-05,0.09090909090909091,189.3939393939394,1,Public-Key Global Moratorium,Up-Sized Optimizing Leverage
+prod_00665,prod_03271,2,22,24,4e-05,0.09090909090909091,189.3939393939394,1,Sharable Radical Groupware,Object-Based Didactic Interface
+prod_03835,prod_03290,2,22,24,4e-05,0.09090909090909091,189.3939393939394,1,Versatile Maximized Forecast,Total Attitude-Oriented Paradigm
+prod_00890,prod_03650,2,22,24,4e-05,0.09090909090909091,189.3939393939394,1,Proactive Dedicated Capacity,Synergized Full-Range Projection
+prod_03271,prod_00665,2,24,22,4e-05,0.08333333333333333,189.39393939393938,1,Object-Based Didactic Interface,Sharable Radical Groupware
+prod_03650,prod_00890,2,24,22,4e-05,0.08333333333333333,189.39393939393938,1,Synergized Full-Range Projection,Proactive Dedicated Capacity
+prod_00095,prod_01444,2,24,22,4e-05,0.08333333333333333,189.39393939393938,1,Intuitive Encompassing Circuit,User-Centric Mission-Critical Focus Group
+prod_00436,prod_03389,2,24,22,4e-05,0.08333333333333333,189.39393939393938,1,Up-Sized Optimizing Leverage,Public-Key Global Moratorium
+prod_03290,prod_03835,2,24,22,4e-05,0.08333333333333333,189.39393939393938,1,Total Attitude-Oriented Paradigm,Versatile Maximized Forecast
+prod_04361,prod_01253,2,23,23,4e-05,0.08695652173913043,189.0359168241966,1,Fundamental Needs-Based Hierarchy,Automated Explicit Software
+prod_04596,prod_00442,2,23,23,4e-05,0.08695652173913043,189.0359168241966,1,Decentralized Object-Oriented Service-Desk,User-Centric Client-Driven Core
+prod_02412,prod_01974,2,23,23,4e-05,0.08695652173913043,189.0359168241966,1,Organic Logistical System Engine,Digitized Exuding Data-Warehouse
+prod_01974,prod_02412,2,23,23,4e-05,0.08695652173913043,189.0359168241966,1,Digitized Exuding Data-Warehouse,Organic Logistical System Engine
+prod_01253,prod_04361,2,23,23,4e-05,0.08695652173913043,189.0359168241966,1,Automated Explicit Software,Fundamental Needs-Based Hierarchy
+prod_00442,prod_04596,2,23,23,4e-05,0.08695652173913043,189.0359168241966,1,User-Centric Client-Driven Core,Decentralized Object-Oriented Service-Desk
+prod_02585,prod_03297,2,19,28,4e-05,0.10526315789473684,187.9699248120301,2,Inverse Reciprocal Encryption,Compatible 24/7 Open System
+prod_03297,prod_02585,2,28,19,4e-05,0.07142857142857142,187.96992481203006,1,Compatible 24/7 Open System,Inverse Reciprocal Encryption
+prod_01127,prod_01507,2,20,27,4e-05,0.1,185.1851851851852,1,Implemented Composite Alliance,Total Systemic Strategy
+prod_00486,prod_02238,2,18,30,4e-05,0.1111111111111111,185.1851851851852,1,Down-Sized 3Rdgeneration Portal,Persevering Non-Volatile Approach
+prod_02579,prod_00427,2,20,27,4e-05,0.1,185.1851851851852,1,Up-Sized Actuating Paradigm,Digitized Neutral Instruction Set
+prod_01565,prod_04000,2,20,27,4e-05,0.1,185.1851851851852,1,Face-To-Face Even-Keeled Benchmark,Ergonomic Exuding Standardization
+prod_00460,prod_04280,2,20,27,4e-05,0.1,185.1851851851852,1,Enhanced Dedicated Database,Profit-Focused Maximized Flexibility
+prod_01507,prod_01127,2,27,20,4e-05,0.07407407407407407,185.18518518518516,1,Total Systemic Strategy,Implemented Composite Alliance
+prod_04000,prod_01565,2,27,20,4e-05,0.07407407407407407,185.18518518518516,1,Ergonomic Exuding Standardization,Face-To-Face Even-Keeled Benchmark
+prod_02238,prod_00486,2,30,18,4e-05,0.06666666666666667,185.18518518518516,1,Persevering Non-Volatile Approach,Down-Sized 3Rdgeneration Portal
+prod_04280,prod_00460,2,27,20,4e-05,0.07407407407407407,185.18518518518516,1,Profit-Focused Maximized Flexibility,Enhanced Dedicated Database
+prod_00427,prod_02579,2,27,20,4e-05,0.07407407407407407,185.18518518518516,1,Digitized Neutral Instruction Set,Up-Sized Actuating Paradigm
+prod_04181,prod_02414,2,17,32,4e-05,0.11764705882352941,183.8235294117647,1,De-Engineered Upward-Trending Process Improvement,Operative Value-Added Ability
+prod_02414,prod_04181,2,32,17,4e-05,0.0625,183.8235294117647,1,Operative Value-Added Ability,De-Engineered Upward-Trending Process Improvement
+prod_02668,prod_00709,2,25,22,4e-05,0.08,181.8181818181818,1,Decentralized 24/7 Strategy,Open-Source Incremental Help-Desk
+prod_01693,prod_01689,2,25,22,4e-05,0.08,181.8181818181818,1,Monitored Grid-Enabled Function,Cross-Group Client-Server Database
+prod_01689,prod_01693,2,22,25,4e-05,0.09090909090909091,181.8181818181818,1,Cross-Group Client-Server Database,Monitored Grid-Enabled Function
+prod_04768,prod_01863,2,25,22,4e-05,0.08,181.8181818181818,1,Secured Interactive Policy,Cross-Group Optimal Interface
+prod_00709,prod_02668,2,22,25,4e-05,0.09090909090909091,181.8181818181818,1,Open-Source Incremental Help-Desk,Decentralized 24/7 Strategy
+prod_01863,prod_04768,2,22,25,4e-05,0.09090909090909091,181.8181818181818,1,Cross-Group Optimal Interface,Secured Interactive Policy
+prod_00322,prod_00577,2,29,19,4e-05,0.06896551724137931,181.48820326678765,1,Reactive Background Policy,Digitized Client-Driven Alliance
+prod_03083,prod_00265,2,29,19,4e-05,0.06896551724137931,181.48820326678765,1,Optimized Object-Oriented Initiative,Ameliorated 24/7 Synergy
+prod_00577,prod_00322,2,19,29,4e-05,0.10526315789473684,181.48820326678765,1,Digitized Client-Driven Alliance,Reactive Background Policy
+prod_00265,prod_03083,2,19,29,4e-05,0.10526315789473684,181.48820326678765,1,Ameliorated 24/7 Synergy,Optimized Object-Oriented Initiative
+prod_04644,prod_00537,2,24,23,4e-05,0.08333333333333333,181.15942028985506,1,Pre-Emptive Contextually-Based Moratorium,Versatile Zero Administration Analyzer
+prod_02919,prod_00240,2,24,23,4e-05,0.08333333333333333,181.15942028985506,1,Extended Coherent Protocol,Innovative Zero Tolerance Emulation
+prod_04967,prod_01444,2,24,23,4e-05,0.08333333333333333,181.15942028985506,2,Intuitive Encompassing Circuit,Phased Context-Sensitive Middleware
+prod_04609,prod_01496,2,24,23,4e-05,0.08333333333333333,181.15942028985506,1,Front-Line Transitional Middleware,Automated Fresh-Thinking Circuit
+prod_04260,prod_00352,2,24,23,4e-05,0.08333333333333333,181.15942028985506,1,Enterprise-Wide Needs-Based Frame,Realigned 3Rdgeneration Solution
+prod_00240,prod_02919,2,23,24,4e-05,0.08695652173913043,181.15942028985506,1,Innovative Zero Tolerance Emulation,Extended Coherent Protocol
+prod_00352,prod_04260,2,23,24,4e-05,0.08695652173913043,181.15942028985506,1,Realigned 3Rdgeneration Solution,Enterprise-Wide Needs-Based Frame
+prod_01496,prod_04609,2,23,24,4e-05,0.08695652173913043,181.15942028985506,1,Automated Fresh-Thinking Circuit,Front-Line Transitional Middleware
+prod_00537,prod_04644,2,23,24,4e-05,0.08695652173913043,181.15942028985506,1,Versatile Zero Administration Analyzer,Pre-Emptive Contextually-Based Moratorium
+prod_01444,prod_04967,2,23,24,4e-05,0.08695652173913043,181.15942028985506,1,Phased Context-Sensitive Middleware,Intuitive Encompassing Circuit
+prod_04233,prod_01588,2,20,28,4e-05,0.1,178.57142857142858,1,Multi-Tiered Zero-Defect Complexity,Centralized Zero Tolerance Approach
+prod_01588,prod_04233,2,28,20,4e-05,0.07142857142857142,178.57142857142856,1,Centralized Zero Tolerance Approach,Multi-Tiered Zero-Defect Complexity
+prod_03453,prod_01530,2,33,17,4e-05,0.06060606060606061,178.25311942959001,1,Optional Reciprocal Projection,Automated User-Facing Circuit
+prod_01530,prod_03453,2,17,33,4e-05,0.11764705882352941,178.25311942959001,1,Automated User-Facing Circuit,Optional Reciprocal Projection

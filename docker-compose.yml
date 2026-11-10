@@ -1,0 +1,46 @@
+# Whole project in Docker:  docker compose up -d --build
+#   mongo  - MongoDB 7                       (localhost:27017)
+#   hbase  - HBase standalone + Thrift       (UI http://localhost:16010, Thrift 9090)
+#   app    - Python 3.11 + Java 17 + PySpark (runs every script; Spark UI http://localhost:4040)
+services:
+  mongo:
+    image: mongo:7
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  hbase:
+    image: dajobe/hbase
+    container_name: hbase
+    hostname: hbase
+    ports:
+      - "16010:16010"   # HMaster web UI
+      - "9090:9090"     # Thrift API (used by happybase)
+      - "9095:9095"     # Thrift web UI
+      - "2181:2181"     # ZooKeeper
+    volumes:
+      - hbase_data:/data
+
+  app:
+    build: .
+    container_name: app
+    depends_on:
+      - mongo
+      - hbase
+    environment:
+      MONGO_URI: mongodb://mongo:27017
+      HBASE_HOST: hbase
+      HBASE_PORT: "9090"
+      SPARK_DRIVER_MEMORY: 3g
+    ports:
+      - "4040:4040"     # Spark UI while a job is running
+    volumes:
+      - .:/app          # your project folder; results land in output/ and report/figures/ on Windows
+    working_dir: /app
+    command: sleep infinity
+
+volumes:
+  mongo_data:
+  hbase_data:

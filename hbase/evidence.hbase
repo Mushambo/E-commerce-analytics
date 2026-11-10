@@ -1,0 +1,5 @@
+# hbase/evidence.hbase - output for the report screenshot (HBase)
+# Run (PowerShell):  Get-Content hbase\evidence.hbase | docker exec -i hbase hbase shell -n
+list
+describe 'user_sessions'
+scan 'user_sessions', {ROWPREFIXFILTER => 'user_000042|', COLUMNS => ['info'], LIMIT => 3}

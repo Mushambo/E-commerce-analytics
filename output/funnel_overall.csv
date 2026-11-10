@@ -1,0 +1,6 @@
+stage,sessions,pct_of_sessions,step_conversion_pct,dropped
+1. Session,200000,100.0,100.0,0
+2. Product view,197509,98.75,98.75,2491
+3. Add to cart,130126,65.06,65.88,67383
+4. Checkout,58215,29.11,44.74,71911
+5. Purchase,25197,12.6,43.28,33018
